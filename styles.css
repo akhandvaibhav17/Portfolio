@@ -1,0 +1,305 @@
+body
+{
+  background-color: #151a33;
+  color: #fff;
+
+}
+
+a
+{
+  color: #fff;
+  text-decoration: none;
+}
+/*
+hr
+{
+  height: 1px;
+  width: 80px;
+}
+ */
+
+
+ @media screen and (max-width: 420px)
+ {
+
+   .education-details
+   { font-size: 10px;
+     text-align: left !important;
+     margin-bottom:4%;
+   }
+  .tiet-logo
+  { display: none !important;}
+
+  .dps-logo
+  { display: none !important;}
+
+  .codify-logo
+  { display: none !important;}
+
+  .edc-logo
+  { display: none !important;}
+
+  .tmf-logo
+  { display: none !important;}
+
+  /* .mobile-view-logos
+  { display:block !important;
+    text-align: left !important;
+  }
+
+  .tiet-logo-2
+  {
+    display: inline-block;
+    max-width:30%;
+    padding-left: 0;
+  }
+
+  .tmf-logo-2
+  {
+    display: inline;
+    max-width:30%;
+    padding-left: 0;
+  }
+
+  .edc-logo-2
+  {
+    display: inline-block;
+    max-width:30%;
+    padding-left: 0;
+  }
+
+  .codify-logo-2
+  {
+    display: inline;
+    max-width:30%;
+    padding-left: 0;
+  }
+
+  .dps-logo-2
+  {
+    display: ;
+    max-width:30%;
+    padding-left: 0;
+  } */
+
+ }
+.main-box
+{ margin: 2% auto;
+  border-radius: 2%;
+  background-color: #202A44;
+  width: 70%;
+}
+
+.name-heading
+{
+  padding-top: 3%;
+  padding-bottom: 0;
+}
+
+.profile-picture
+{
+   max-width: 100%;
+   border-radius: 100%;
+}
+
+.description
+{
+ font-size: 0.8rem;
+}
+/*
+.tiet-logo
+{ padding: 2%;
+  align-items: center;
+  justify-content: center;
+} */
+
+.contact-details
+{ text-align: left;
+  font-size: 0.8rem;
+  padding: 1%;
+}
+
+.card
+{
+  background-color: #202A44;
+}
+
+.education-container
+{ margin: 2% 0;
+  text-align: left !important;
+}
+
+
+.education-container
+{
+  padding: 0;
+  text-align: left;
+  text-decoration: underline;
+  margin-bottom: 2%;
+}
+
+
+.education-header
+{
+  padding: 0;
+  text-align: left;
+  text-decoration: underline;
+  margin-bottom: 2%;
+}
+
+.education-details
+{
+  text-align: left !important;
+  margin-bottom:4%;
+}
+
+.education-degree
+{
+  font-size:12px;
+}
+
+
+.tiet-logo
+{
+  display: inline;
+  max-width:80%;
+  padding-left: 0;
+}
+
+.codify-logo
+{
+  display: inline;
+  max-width:80%;
+  padding-left: 0;
+}
+
+.edc-logo
+{
+  display: inline;
+  max-width:35%;
+  padding-left: 0;
+}
+
+.tmf-logo
+{
+  display: inline;
+  max-width:60%;
+  padding-left: 0;
+}
+
+
+.dps-logo
+{
+  display: inline;
+  max-width:100%;
+  padding-left: 0;
+}
+/*
+.mobile-view-logos
+{
+  display: none;
+} */
+
+.card-website-image
+{
+  opacity: 0.7;
+  overflow: hidden;
+  transform: scale(1);
+}
+
+.card-website-image:hover
+{ opacity:1;
+  transition: 0.5s all ease-in-out;
+  transform: scale(1.1);
+  overflow: hidden !important;
+  max-width: 100%;
+  height auto;
+}
+
+
+.card-text
+{
+  color: #fff;
+}
+
+.skill-container
+{ margin:4% 0;
+  text-align: left !important;
+}
+
+
+.skill-details
+{
+  text-align: left !important;
+  margin-bottom:4%;
+}
+
+
+.technical-specifications
+{
+  font-size:12px;
+}
+
+
+.btn-brown
+{
+  background-color: #5C4033	;
+}
+
+
+
+.certifications-container
+{ margin:4% 0;
+  text-align: left !important;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.certifications-details
+{
+  text-align: left !important;
+  margin-bottom:4%;
+}
+
+.certificate-card
+{ border-radius: 0.25rem;
+  background-color: #202A44;
+  max-width: 100%;
+  height: 123.6px;
+}
+
+.certificate-images
+{
+  width: 2px;
+  height: auto;
+}
+
+.certificate-text
+{
+  padding: 2%;
+}
+
+.footer
+{ padding: 2% 0;
+  background-color: #202A44;
+}
+
+.footer-name
+{ padding: 3% 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group
+{   padding: 10px;
+    border-radius: 4px;
+    background: transparent !important;
+    border: 1px solid;
+    border-color: #fff;
+    color: var(--ternary);
+    font-size: 16px;
+    max-width: 100%;
+  }
