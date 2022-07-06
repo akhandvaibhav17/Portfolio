@@ -42,16 +42,6 @@ hr
   .tmf-logo
   { display: none !important;}
 
-
-  .card-website-image
-  { height: 23.6px !important;
-    max-width: 100% !important;
-    opacity: 0.7;
-    overflow: hidden;
-    transform: scale(1);
-  }
-
-
   /* .mobile-view-logos
   { display:block !important;
     text-align: left !important;
@@ -211,8 +201,7 @@ hr
 } */
 
 .card-website-image
-{ height: 123.6px;
-  max-width: 100%;
+{
   opacity: 0.7;
   overflow: hidden;
   transform: scale(1);
@@ -282,6 +271,11 @@ hr
   height: 123.6px;
 }
 
+.certificate-images
+{
+  width: 2px;
+  height: auto;
+}
 
 .certificate-text
 {
